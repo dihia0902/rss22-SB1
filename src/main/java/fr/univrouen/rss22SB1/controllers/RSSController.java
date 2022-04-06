@@ -14,7 +14,7 @@ public class RSSController {
             return "Envoi de la liste des flux RSS";
          
         }
-        @GetMapping("/id")
+        @GetMapping("/guid")
         public String getRSSinXML() {
             return "Détail du contenu RSS demandé";
         }
